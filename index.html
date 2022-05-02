@@ -3,72 +3,86 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/dist/output.css" rel="stylesheet">
         <title>stylling_challange2</title>
     </head>
     <body>
-        <div class="home">
-            <div class="home-wording">
-                <h1 class="home-heading">One-click solution for your static? website.</h1>
-                <p class="img-acknowledgement">Image from Freepik</p>
-                <form action="#">
-                    <input type="file" id="myFile" name="filename">
-                    <input type="submit">
-                </form>
-                <a href="#" class="youtube-link-btn">WatchVideo</a>
-            </div>
-            <div class="home-img">
-                <img src="" alt="">
-            </div>
-        </div>
-        <div class="section-one">
-            <div class="section-one-cards">
-                <div class="card">
-                    <img src="" alt="">
-                    <h6>Visualize it</h6>
-                    <p>
-                        Sample text .Click to select the text box. <br>
-                        click again or double click to start <br>
-                        editing the text
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="" alt="">
-                    <h6>Create it</h6>
-                    <p>
-                        Sample text .Click to select the text box. <br>
-                        click again or double click to start <br>
-                        editing the text
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="" alt="">
-                    <h6>Grow it</h6>
-                    <p>
-                        Sample text .Click to select the text box. <br>
-                        click again or double click to start <br>
-                        editing the text
-                    </p>
+        <div class="home flex flex-row max-h-full pt-44">
+            <div class="home-wording basis-1/2 pl-80">
+                <h1 class="home-heading text-black text-8xl font-bold font-sans">One-click <br> solution for <br> your static? <br> website.</h1>
+                <p class="img-acknowledgement py-5 text-xs ">Image from <span class=" ">Freepik</span></p>
+                <div class="flex flex-row shrink">
+                    <label class="w-64 flex flex-col items-center px-4 py-5 rounded-lg shadow bg-primary">
+                        <span class="text-base leading-normal">Upload for free</span>
+                        <input type='file' class="hidden" />
+                    </label>
+                    <label class="w-64 flex flex-col items-center px-4 py-5 mx-5 rounded-lg bg-grey">
+                        <a href="#" class="youtube-link-btn">Watch Video</a>
+                    </label>
+                    
                 </div>
             </div>
-            <div class="section-one-wordings">
-                <h6>What We Do</h6>
-                <h1>We have the Knowledge and experience</h1>
-                <p>
+            <div class="home-img basis-1/2">
+                <img class="md:h-100 md:pb-10" src="/src/images/undraw_building_websites_i78t.svg" alt="">
+            </div>
+        </div> 
+        <div class="section-one flex flex-col py-20 bg-split-white-green h-100">
+            <div class="section-one-cards basis-1/2">
+                <div class="flex flex-row justify-center">
+                    <div class="card flex flex-col justify-center items-center bg-white overflow-hidden py-10 px-20 mx-10">
+                        <div class="bg-orange w-32 h-32">
+                            <img class="h-20 mx-5 my-5" src="/src/images/growth.png" alt="">
+                        </div>
+                        <h6 class="font-bold text-center text-3xl py-5">Visualize it</h6>
+                        <p class="text-center">
+                            Sample text .Click to select the text box. <br>
+                            click again or double click to start <br>
+                            editing the text
+                        </p>
+                    </div>
+                    <div class="card flex flex-col justify-center items-center bg-white overflow-hidden py-10 px-20 mx-10">
+                        <div class="bg-orange w-32 h-32">
+                            <img class="h-20 mx-5 my-5" src="/src/images/growth.png" alt="">
+                        </div>
+                        <h6 class="font-bold text-center text-3xl py-5">Visualize it</h6>
+                        <p class="text-center">
+                            Sample text .Click to select the text box. <br>
+                            click again or double click to start <br>
+                            editing the text
+                        </p>
+                    </div>
+                    <div class="card flex flex-col justify-center items-center bg-white overflow-hidden py-10 px-20 mx-10">
+                        <div class="bg-orange w-32 h-32">
+                            <img class="h-20 mx-5 my-5" src="/src/images/growth.png" alt="">
+                        </div>
+                        <h6 class="font-bold text-center text-3xl py-5">Visualize it</h6>
+                        <p class="text-center">
+                            Sample text .Click to select the text box. <br>
+                            click again or double click to start <br>
+                            editing the text
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-one-wordings flex flex-col justify-center items-center text-white py-10">
+                <h6 class="text-3xl font-bold pb-10">What We Do</h6>
+                <h1 class="text-6xl font-bold pb-10">We have the Knowledge and experience</h1>
+                <p class="text-center">
                     We offer support, visual & design strategies to our customers.Click to select <br>
                     the text box.click again or double click to start <br>
                     editing the text
                 </p>
             </div>
         </div>
-        <div class="section-two">
-            <div class="about-us">
-                <h5>About Us</h5>
-                <h1>
+        <div class="section-two flex flex-row py-10 justify-center items-center">
+            <div class="about-us basis-1/2 pl-60">
+                <h5 class="text-3xl font-bold text-black pt-10">About Us</h5>
+                <h1 class="text-6xl font-bold text-primary py-10">
                     We are the best <br>
                     agency to improve <br>
                     your deals
                 </h1>
-                <h5>We work directly for our clients and put <br> 
+                <h5 class="text-3xl font-bold text-black pb-10" >We work directly for our clients and put <br> 
                     client's intrests first.
                 </h5>
                 <p>
@@ -79,28 +93,28 @@
                     the internet and the sales system.
                 </p>
             </div>
-            <div class="percentages">
-                <div>
-                    <p>
+            <div class="percentages basis-1/2 bg-grey flex flex-row pt-40 pb-10 mr-60">
+                <div class="px-10">
+                    <p class="py-10 text-center">
                         Sample text .Click to select the text box. <br>
                         click again or double click to start <br>
                         editing the text
                     </p>
-                    <h1>20%</h1>
-                    <p>
+                    <h1 class="text-6xl text-orange font-bold text-center pb-10">20%</h1>
+                    <p class="text-center pb-10"> 
                         Sample text .Click to select the text box. <br>
                         click again or double click to start <br>
                         editing the text
                     </p>
                 </div>
-                <div>
-                    <p>
+                <div class="px-10">
+                    <p class="py-10 text-center">
                         Sample text .Click to select the text box. <br>
                         click again or double click to start <br>
                         editing the text
                     </p>
-                    <h1>13</h1>
-                    <p>
+                    <h1 class="text-6xl text-orange font-bold text-center pb-10">13%</h1>
+                    <p class="text-center pb-10"> 
                         Sample text .Click to select the text box. <br>
                         click again or double click to start <br>
                         editing the text
