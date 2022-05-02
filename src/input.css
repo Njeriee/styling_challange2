@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p{
+    font-size:x-large;
+}
+.section-four-phone-icon {
+    height: 32;
+    width: 32;
+    border-radius: 100%
+}

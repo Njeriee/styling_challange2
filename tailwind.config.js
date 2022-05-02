@@ -13,15 +13,15 @@ module.exports = {
     },
     colors: {
       'transparent': 'transparent',
-      'primary': '#5ECD76',
+      'primary': 'rgb(148, 196, 168)',
       'white': '#ffffff',
       'black': 'black',
-      'grey': '#9CA3AF',
+      'grey': '#E7E5E4',
       'orange': '#EA580C',
     },
     extend: {
       backgroundImage: {
-        'split-white-green': "linear-gradient(to bottom, white 25%, #5ECD76 0%);"
+        'split-white-green': "linear-gradient(to bottom, white 25%, rgb(148, 196, 168) 0%);"
       }
     }
   },
