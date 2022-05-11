@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p{
-    font-size:large;
+    font-size:larger;
 }
 .section-four-phone-icon {
     height: 32;
